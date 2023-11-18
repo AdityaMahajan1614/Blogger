@@ -1,3 +1,32 @@
 body{
-    background-color: aqua;
+    margin: 0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    margin-right: 2vh;
+}
+.name{
+    font-family: 'Playfair Display', serif;
+    font-size: 7vh;
+    color:rgb(255, 255, 237);
+    padding: 3vh 0vh 2vh 2vh;
+    display: inline;
+}
+.navbar{
+    background-color: black;
+    display: flexbox;
+}
+.navigation{
+    color: rgb(255, 255, 237);
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+    margin-top: -5vh;
+    padding-right: 2vh;
+    padding-bottom: 2vh;
+    font-size: 4vh;
+}
+.home , .blog{
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 237);
 }
