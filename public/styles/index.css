@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 a {
     color: inherit;
@@ -19,7 +20,6 @@ a {
 }
 .navigation{
     color: rgb(255, 255, 237);
-    font-family: 'Roboto', sans-serif;
     text-align: right;
     margin-top: -5vh;
     padding-right: 2vh;
@@ -30,3 +30,41 @@ a {
     text-decoration: underline;
     text-decoration-color: rgb(255, 255, 237);
 }
+.input-form{
+    margin-top: 25vh;
+    display: flex;
+    justify-content: center;
+}
+input{
+    padding: 2vh;
+    margin: 1vh;
+    background-color:azure;
+    border-radius: 1vh;
+    border: none;
+}
+form{
+    background-color:blanchedalmond;
+    border-radius: 1vh;
+    padding: 4vh 0vh;
+    width: 400px;
+}
+#post{
+    margin-left: 30%;
+    width: 40%;
+    font-size: 20px;
+    color: purple;
+    border-radius: 1vh;
+    background-color:aquamarine;
+}
+#content{
+    height: 80px;
+    margin-left: 7%;
+    width: 80%;
+    font-size: 20px;
+}
+#name{
+    margin-left: 7%;
+    width: 80%;
+    font-size: 20px;
+}
+
