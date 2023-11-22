@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    background-image: url("/public/3840x2160.jpg");
 }
 a {
     color: inherit;
@@ -66,5 +67,17 @@ form{
     margin-left: 7%;
     width: 80%;
     font-size: 20px;
+}
+.blogbox{
+    border: none;
+    border-width: 1px;
+    width: 40%;
+    margin: 15px 30%;
+    background-color: rgb(255, 255, 154,0.7);
+    border-radius: 5px;
+}
+p,h4{
+    margin: 0;
+    padding: 5px;
 }
 

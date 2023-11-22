@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
-  console.log(names,blogs);
+  // console.log(names,blogs);
   res.render("index.ejs",{
     nameList: names,
     blogList: blogs

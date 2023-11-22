@@ -21,10 +21,13 @@
            <a href="/" class="home">Home</a> <a href="/create">Blog</a> 
         </div>
     </div>
-    <% if(locals.nameList){ %>
+    <% if(locals.nameList.length!==0){ %>
         <% for(var i=0;i<nameList.length;i++){ %>
-            <p><%= nameList[i] %></p> 
-            <p><%= blogList[i] %></p>
+            <div class="blogbox">
+                <h4><%= nameList[i] %></h4> 
+                <p><%= blogList[i] %></p>
+            </div>
+            
             <% } %>
    <% } else{ %>
         <h1>Create your First Post!</h1> 
