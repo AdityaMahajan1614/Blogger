@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    margin-top: 100px ;
     font-family: 'Roboto', sans-serif;
     background-image: url("../3840x2160.jpg");
     background-color: black;
@@ -19,6 +20,10 @@ a {
 .navbar{
     background-color: black;
     display: flexbox;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
 }
 .navigation{
     color: rgb(255, 255, 237);
@@ -81,7 +86,7 @@ form{
     background-color: rgb(255, 255, 154,0.8);
     border-radius: 5px;
 }
-p,h4{
+p,h3{
     margin: 0;
     padding: 5PX 10px;
 }

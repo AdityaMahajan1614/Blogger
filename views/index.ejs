@@ -23,12 +23,15 @@
     </div>
     <% if(locals.nameList.length!==0){ %>
         <% for(var i=nameList.length-1;i>=0;i--){ %>
+            <% if(nameList[i]==='') {
+                continue;
+            } else{%>
             <div class="blogbox">
-                <h4><%= nameList[i] %></h4> 
+                <h3><%= nameList[i] %></h3> 
                 <p><%= blogList[i] %></p>
             </div>
             
-            <% } %>
+            <% } }%>
    <% } else{ %>
         <h1>Create your First Post!</h1> 
         <a href="/create">
