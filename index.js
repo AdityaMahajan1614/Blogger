@@ -25,7 +25,12 @@ app.post("/submit",(req,res)=>{
   blogs.push(req.body.Content);
   res.redirect("/");
 })
-
+app.post("/delete",(req,res)=>{
+  var index = req.body.delete;
+  names.splice(index,1);
+  blogs.splice(index,1);
+  res.redirect("/");
+})
 
 app.listen(port,()=>{
     console.log(`Server running at port ${port}`);
