@@ -22,7 +22,7 @@
         </div>
     </div>
     <div class="input-form">
-        <form action="/submit" method="POST">
+        <form action="/edited" method="POST">
             <input type="text" name="Name" <% if(locals.index){%> value="<%= names[index] %>" <%} %> placeholder="Name" id="name"><br>
             <input type="text" name="Content"<% if(locals.index){%> value="<%= blogs[index] %>" <%} %>  placeholder="What's in your mind?" id="content"><br>
             <input type="submit" value="Post" id="post">
